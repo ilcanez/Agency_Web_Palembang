@@ -118,37 +118,37 @@ const NAV_LINKS = [
 ]
 
 const SERVICES = [
-  { icon: Camera,   title: 'Content Creation',          text: 'High-impact photography, videos, and copy crafted to stop the scroll and drive real engagement across all platforms.', color: RED },
-  { icon: Share2,   title: 'Social Media Strategy',     text: 'Data-driven platform planning, content calendars, and growth tactics that convert followers into loyal customers.',      color: BLUE },
-  { icon: Film,     title: 'Videography & Production',  text: 'Cinematic brand films, short-form reels, product showcases, and full event coverage with professional-grade gear.',    color: YELLOW },
-  { icon: Palette,  title: 'Brand Identity & Design',   text: 'Complete visual identity — logo, brand guidelines, typography systems, and assets that make you unforgettable.',       color: RED },
-  { icon: Users,    title: 'Influencer & KOL Marketing', text: 'Connecting brands with the right local voices across Sumatera Selatan to amplify reach and build authentic trust.',  color: BLUE },
-  { icon: Megaphone,title: 'Digital Advertising',       text: 'Performance-driven Meta, TikTok Ads, and Google campaigns with precise targeting and measurable ROAS.',               color: YELLOW },
+  { icon: Camera,    title: 'Content Creation',           text: 'High-impact photography, videos, and copy crafted to stop the scroll and drive real engagement across all platforms.', color: RED },
+  { icon: Share2,    title: 'Social Media Strategy',      text: 'Data-driven platform planning, content calendars, and growth tactics that convert followers into loyal customers.',      color: BLUE },
+  { icon: Film,      title: 'Videography & Production',   text: 'Cinematic brand films, short-form reels, product showcases, and full event coverage with professional-grade gear.',    color: YELLOW },
+  { icon: Palette,   title: 'Brand Identity & Design',    text: 'Complete visual identity — logo, brand guidelines, typography systems, and assets that make you unforgettable.',       color: RED },
+  { icon: Users,     title: 'Influencer & KOL Marketing', text: 'Connecting brands with the right local voices across Sumatera Selatan to amplify reach and build authentic trust.',   color: BLUE },
+  { icon: Megaphone, title: 'Digital Advertising',        text: 'Performance-driven Meta, TikTok Ads, and Google campaigns with precise targeting and measurable ROAS.',               color: YELLOW },
 ]
 
 const PORTFOLIO = [
-  { id:1, title:'Kopi Muaro Rebrand',        category:'Brand Identity',  tag:'+340% Brand Recall', img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80' },
-  { id:2, title:'Sriwijaya Fashion Week',    category:'Videography',     tag:'1.2M Views',          img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80' },
-  { id:3, title:'Wisata Palembang Campaign', category:'Content Creation', tag:'+85K Reach',          img:'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80' },
-  { id:4, title:'Pempek Nusantara Launch',   category:'Social Media',    tag:'+12K Followers',      img:'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80' },
-  { id:5, title:'Batik Palembang x KOL',     category:'Influencer',      tag:'4.2× ROAS',           img:'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&q=80' },
-  { id:6, title:'Musi River Hotel Promo',    category:'Digital Ads',     tag:'+220% Bookings',      img:'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80' },
+  { id:1, title:'Kopi Muaro Rebrand',        category:'Brand Identity',   tag:'+340% Brand Recall', img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80' },
+  { id:2, title:'Sriwijaya Fashion Week',    category:'Videography',      tag:'1.2M Views',          img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80' },
+  { id:3, title:'Wisata Palembang Campaign', category:'Content Creation',  tag:'+85K Reach',          img:'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80' },
+  { id:4, title:'Pempek Nusantara Launch',   category:'Social Media',     tag:'+12K Followers',      img:'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80' },
+  { id:5, title:'Batik Palembang x KOL',     category:'Influencer',       tag:'4.2× ROAS',           img:'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&q=80' },
+  { id:6, title:'Musi River Hotel Promo',    category:'Digital Ads',      tag:'+220% Bookings',      img:'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80' },
 ]
 
 const RESULTS = [
-  { end:120, suffix:'+',  label:'Brands Served',   desc:'From local UMKM to enterprise brands across Sumatera Selatan and beyond.', color: RED },
-  { end:12,  suffix:'M+', label:'Content Views',   desc:'Total impressions generated across all platforms for our clients combined.', color: BLUE },
-  { end:85,  suffix:'%',  label:'Client Retention',desc:"Most clients stay and grow with us — that's our strongest testimonial.", color: YELLOW },
+  { end:120, suffix:'+',  label:'Brands Served',    desc:'From local UMKM to enterprise brands across Sumatera Selatan and beyond.', color: RED },
+  { end:12,  suffix:'M+', label:'Content Views',    desc:'Total impressions generated across all platforms for our clients combined.', color: BLUE },
+  { end:85,  suffix:'%',  label:'Client Retention', desc:"Most clients stay and grow with us — that's our strongest testimonial.", color: YELLOW },
 ]
 
 const CLIENTS = ['Kopi Muaro','Bank Sumsel Babel','Musi Hotel Collection','Palembang Fashion Week','Sriwijaya Kuliner','Sumatera Digital','Batik Nusantara','GoFood Palembang']
 
 const TESTIMONIALS = [
-  { name:'Budi Santoso',  role:'CEO, PT Sriwijaya Kuliner',       avatar:'B', borderColor: RED,
+  { name:'Budi Santoso', role:'CEO, PT Sriwijaya Kuliner',          avatar:'B', borderColor: RED,
     text:'lifeatkreabi totally transformed our online presence. In just 3 months, our Instagram jumped from 2K to 50K followers and daily orders doubled. The team really understands the Palembang market.', rating:5 },
-  { name:'Dewi Rahayu',   role:'Marketing Director, Batik Nusantara', avatar:'D', borderColor: BLUE,
+  { name:'Dewi Rahayu',  role:'Marketing Director, Batik Nusantara', avatar:'D', borderColor: BLUE,
     text:'The brand film they produced for our collection launch has been viewed over 200K times organically. The quality matched international agencies at a fraction of the cost. Luar biasa.', rating:5 },
-  { name:'Ahmad Fauzi',   role:'Founder, Pempek Street Food',     avatar:'A', borderColor: YELLOW,
+  { name:'Ahmad Fauzi',  role:'Founder, Pempek Street Food',         avatar:'A', borderColor: YELLOW,
     text:"We trusted lifeatkreabi to run our TikTok ads and the results blew us away — 4.2x ROAS in the first month. They're not just an agency, they're a real growth partner.", rating:5 },
 ]
 
@@ -178,7 +178,7 @@ function CountUp({ end, suffix = '', duration = 2200 }) {
   return <span ref={ref} className="tabular-nums">{value}{suffix}</span>
 }
 
-// ─── Creative Signature Animation (light theme) ────────────────────────────────
+// ─── Creative Signature Animation ─────────────────────────────────────────────
 
 function CreativeAnim() {
   const [statusIdx, setStatusIdx] = useState(0)
@@ -205,10 +205,8 @@ function CreativeAnim() {
         @keyframes spark-fadein{from{opacity:0;transform:translateY(3px);}to{opacity:1;transform:translateY(0);}}
         @keyframes lens-glow2{0%,100%{opacity:.35;}50%{opacity:.65;}}
       `}</style>
-      {/* blobs */}
       <div className="absolute top-3 left-6 w-14 h-14 rounded-full blur-2xl opacity-40" style={{background:'#FBBF24'}}/>
       <div className="absolute top-0 right-8 w-10 h-10 rounded-full blur-xl opacity-30" style={{background:'#EF4444'}}/>
-      {/* camera aperture */}
       <div className="absolute top-3 left-1/2 -translate-x-1/2">
         <svg width="52" height="22" viewBox="0 0 52 22">
           <rect x="0" y="7" width="52" height="8" rx="4" fill="none" stroke="#F97316" strokeWidth="1.5"/>
@@ -220,12 +218,10 @@ function CreativeAnim() {
           <line x1="33" y1="11" x2="41" y2="11" stroke="#EF4444" strokeWidth=".8" opacity=".4"/>
         </svg>
       </div>
-      {/* header */}
       <div className="absolute top-1.5 left-3 right-3 flex items-center justify-between">
         <span className="font-mono text-[9px] text-orange-600/70 uppercase tracking-widest">Creative Studio</span>
         <span className="font-mono text-[9px] text-orange-500/60">7 active</span>
       </div>
-      {/* particles */}
       {sparkles.map((s, i) => (
         <div key={i} className="absolute top-0"
           style={{left:s.left, animation:`spark-fall ${s.dur} ${s.delay} infinite ease-in`}}>
@@ -241,7 +237,6 @@ function CreativeAnim() {
           </svg>
         </div>
       ))}
-      {/* canvas surface */}
       <div className="absolute bottom-10 left-0 right-0">
         <svg width="100%" height="10" viewBox="0 0 300 10">
           <line x1="0" y1="5" x2="300" y2="5" stroke="#F97316" strokeWidth=".8" strokeOpacity=".35"/>
@@ -250,13 +245,11 @@ function CreativeAnim() {
           ))}
         </svg>
       </div>
-      {/* ripples */}
       {[{left:'22%',delay:'0s'},{left:'50%',delay:'0.8s'},{left:'76%',delay:'1.5s'}].map((r,i)=>(
         <div key={i} className="absolute"
           style={{bottom:'36px',left:r.left,width:'18px',height:'6px',borderRadius:'50%',
             border:'1px solid #F97316',animation:`spark-ripple 2s ${r.delay} infinite ease-out`}}/>
       ))}
-      {/* status */}
       <div className="absolute bottom-0 left-0 right-0 flex items-center gap-2 px-3 py-1.5 rounded-b-3xl"
         style={{background:'rgba(255,237,213,.8)',borderTop:'1px solid rgba(249,115,22,.2)'}}>
         <div className="w-1.5 h-1.5 rounded-full bg-red-400 flex-shrink-0"
@@ -371,31 +364,49 @@ function Navbar() {
       scrolled ? 'glass shadow-xl shadow-black/5 border border-divider' : 'bg-transparent'
     }`}>
       <div className="flex items-center justify-between">
-        <a href="#home" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg flex items-center justify-center shadow-lg" style={{background:RED,boxShadow:`0 4px 12px ${RED}50`}}>
-            <Aperture className="h-4 w-4 text-white"/>
-          </div>
+
+        {/* ── Logo ── */}
+        <a href="#home" className="flex items-center gap-2.5 flex-shrink-0">
+          <img
+            src="/logo-lifeatkreabi.png"
+            alt="lifeatkreabi"
+            className="h-9 w-auto object-contain"
+            style={{ filter: 'drop-shadow(0 2px 8px rgba(239,68,68,0.35))' }}
+          />
           <span className="font-display font-bold text-ink text-sm tracking-tight">lifeatkreabi</span>
         </a>
+
+        {/* ── Nav links ── */}
         <div className="hidden lg:flex items-center gap-7">
           {NAV_LINKS.map(l => (
             <a key={l.label} href={l.href}
               className="font-body text-sm text-muted hover:text-ink transition-colors duration-200">{l.label}</a>
           ))}
         </div>
+
+        {/* ── CTA + Hamburger ── */}
         <div className="flex items-center gap-3">
           <a href="#contact"
             className="magnetic-btn hidden sm:inline-flex items-center gap-1.5 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg"
-            style={{background:RED,boxShadow:`0 4px 14px ${RED}45`}}>
+            style={{background:RED, boxShadow:`0 4px 14px ${RED}45`}}>
             Start a Project <ArrowUpRight className="h-3.5 w-3.5"/>
           </a>
           <button onClick={() => setOpen(!open)} className="lg:hidden p-2 text-ink">
             {open ? <X className="h-5 w-5"/> : <Menu className="h-5 w-5"/>}
           </button>
         </div>
+
       </div>
+
+      {/* ── Mobile menu ── */}
       {open && (
         <div className="lg:hidden absolute top-full left-0 right-0 mt-2 rounded-3xl bg-white/97 backdrop-blur-2xl border border-divider shadow-xl p-6 flex flex-col gap-4">
+          {/* Logo inside mobile menu */}
+          <img
+            src="/logo-lifeatkreabi.png"
+            alt="lifeatkreabi"
+            className="h-8 w-auto object-contain self-start mb-2"
+          />
           {NAV_LINKS.map(l => (
             <a key={l.label} href={l.href} onClick={() => setOpen(false)}
               className="font-body text-base text-ink hover:text-primary transition-colors">{l.label}</a>
@@ -431,7 +442,6 @@ function Hero() {
     <section id="home" ref={ref}
       className="relative min-h-[100dvh] bg-white overflow-hidden flex flex-col justify-center">
 
-      {/* Large doodle background elements */}
       <div className="absolute top-16 right-6 sm:right-16 lg:right-24 hero-doodle pointer-events-none">
         <DStar color={RED} size={90} opacity={0.18} rotate={12}/>
       </div>
@@ -461,15 +471,12 @@ function Hero() {
         <div className="flex-1" style={{background:YELLOW}}/>
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 pt-32 pb-20">
-        {/* Badge */}
         <div className="hero-badge inline-flex items-center gap-2 mb-8 px-4 py-2 rounded-full border border-divider bg-surface text-xs font-mono text-muted">
           <span className="w-2 h-2 rounded-full animate-pulse" style={{background:RED}}/>
           Creative Agency · Palembang, Indonesia · Est. 2020
         </div>
 
-        {/* Headline */}
         <h1 className="font-display font-bold text-ink tracking-tighter leading-[0.9] max-w-4xl"
           style={{fontSize:'clamp(3rem,9vw,6rem)'}}>
           <span className="hero-line-1 block">We Bring Your</span>
@@ -479,7 +486,6 @@ function Hero() {
           </span>
         </h1>
 
-        {/* Tagline deco */}
         <div className="mt-6 mb-2 flex items-center gap-3">
           <DWave color={RED} width={60} opacity={0.65}/>
           <span className="font-mono text-xs uppercase tracking-[0.3em] text-muted">Create. Grow. Inspire.</span>
@@ -504,7 +510,6 @@ function Hero() {
           </a>
         </div>
 
-        {/* Stats row */}
         <div className="mt-16 flex flex-wrap gap-8 sm:gap-12 border-t border-divider pt-10">
           {RESULTS.map(r => (
             <div key={r.label}>
@@ -532,7 +537,6 @@ function About() {
 
   return (
     <section id="about" ref={ref} className="relative py-28 sm:py-36 px-6 sm:px-10 lg:px-16 max-w-7xl mx-auto overflow-hidden">
-      {/* Doodle bg */}
       <div className="absolute top-12 right-8 pointer-events-none opacity-60"><DSparkle color={YELLOW} size={36} rotate={30}/></div>
       <div className="absolute bottom-16 left-12 pointer-events-none opacity-40"><DSquiggle color={RED} width={90}/></div>
       <div className="absolute top-1/2 right-1/4 pointer-events-none opacity-30 hidden lg:block"><DStar color={BLUE} size={50} rotate={20}/></div>
@@ -554,7 +558,6 @@ function About() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {/* Card 1 */}
         <div className="feature-card bg-surface border border-divider rounded-3xl p-6 sm:p-8"
           style={{borderTopColor:RED,borderTopWidth:'3px'}}>
           <p className="font-mono text-[10px] uppercase tracking-widest mb-1" style={{color:RED}}>Our Range</p>
@@ -564,13 +567,11 @@ function About() {
           <ul className="mt-4 space-y-1.5">
             {['Brand strategy & identity','Content production','Paid & organic growth'].map(item => (
               <li key={item} className="flex items-center gap-2 text-xs text-muted">
-                <span className="w-1 h-1 rounded-full flex-shrink-0" style={{background:RED}}/>
-                {item}
+                <span className="w-1 h-1 rounded-full flex-shrink-0" style={{background:RED}}/>{item}
               </li>
             ))}
           </ul>
         </div>
-        {/* Card 2 */}
         <div className="feature-card bg-surface border border-divider rounded-3xl p-6 sm:p-8"
           style={{borderTopColor:BLUE,borderTopWidth:'3px'}}>
           <p className="font-mono text-[10px] uppercase tracking-widest mb-1" style={{color:BLUE}}>Our Process</p>
@@ -580,13 +581,11 @@ function About() {
           <ul className="mt-4 space-y-1.5">
             {['Discover & research','Create & produce','Deliver & optimize'].map(item => (
               <li key={item} className="flex items-center gap-2 text-xs text-muted">
-                <span className="w-1 h-1 rounded-full flex-shrink-0" style={{background:BLUE}}/>
-                {item}
+                <span className="w-1 h-1 rounded-full flex-shrink-0" style={{background:BLUE}}/>{item}
               </li>
             ))}
           </ul>
         </div>
-        {/* Card 3 */}
         <div className="feature-card bg-surface border border-divider rounded-3xl p-6 sm:p-8"
           style={{borderTopColor:YELLOW,borderTopWidth:'3px'}}>
           <p className="font-mono text-[10px] uppercase tracking-widest mb-1" style={{color:'#D97706'}}>Our Rhythm</p>
@@ -596,8 +595,7 @@ function About() {
           <ul className="mt-4 space-y-1.5">
             {['Structured content calendar','Real-time performance tracking','Monthly reporting & strategy'].map(item => (
               <li key={item} className="flex items-center gap-2 text-xs text-muted">
-                <span className="w-1 h-1 rounded-full flex-shrink-0" style={{background:YELLOW}}/>
-                {item}
+                <span className="w-1 h-1 rounded-full flex-shrink-0" style={{background:YELLOW}}/>{item}
               </li>
             ))}
           </ul>
@@ -621,7 +619,6 @@ function Services() {
   return (
     <section id="services" ref={ref} className="relative py-28 sm:py-36 overflow-hidden"
       style={{background:'#111111'}}>
-      {/* Doodles on dark bg */}
       <div className="absolute top-12 right-16 pointer-events-none opacity-15">
         <DStar color={YELLOW} size={100} rotate={-15}/>
       </div>
@@ -749,7 +746,6 @@ function Results() {
 
   return (
     <section ref={ref} className="relative py-28 sm:py-36 overflow-hidden bg-surface">
-      {/* Doodles */}
       <div className="absolute top-8 left-12 pointer-events-none"><DDots color={YELLOW} size={40} opacity={0.5}/></div>
       <div className="absolute bottom-8 right-16 pointer-events-none"><DSquiggle color={RED} width={70} opacity={0.45}/></div>
       <div className="absolute top-1/2 right-8 pointer-events-none hidden md:block"><DCross color={BLUE} size={28} opacity={0.5} rotate={15}/></div>
@@ -772,8 +768,7 @@ function Results() {
           {RESULTS.map(({ end, suffix, label, desc, color }) => (
             <div key={label} className="result-pillar flex flex-col items-center text-center px-8 py-10">
               <p className="font-mono text-[10px] uppercase tracking-widest text-muted mb-4">{label}</p>
-              <div className="font-display text-7xl sm:text-8xl font-bold tracking-tighter mb-4"
-                style={{color}}>
+              <div className="font-display text-7xl sm:text-8xl font-bold tracking-tighter mb-4" style={{color}}>
                 <CountUp end={end} suffix={suffix} duration={2200}/>
               </div>
               <p className="text-sm text-muted leading-relaxed max-w-xs">{desc}</p>
@@ -834,7 +829,6 @@ function Testimonials() {
   }, [])
   return (
     <section ref={ref} className="relative py-28 sm:py-36 px-6 sm:px-10 lg:px-16 max-w-7xl mx-auto overflow-hidden">
-      {/* Doodles */}
       <div className="absolute top-12 left-8 pointer-events-none"><DZigzag color={BLUE} width={70} opacity={0.4}/></div>
       <div className="absolute bottom-16 right-10 pointer-events-none"><DSparkle color={RED} size={32} opacity={0.6} rotate={-15}/></div>
       <div className="absolute top-1/2 right-1/3 pointer-events-none hidden lg:block"><DCross color={YELLOW} size={20} opacity={0.6} rotate={10}/></div>
@@ -855,7 +849,6 @@ function Testimonials() {
         {TESTIMONIALS.map((t, i) => (
           <div key={i}
             className="testimonial-card bg-white border border-divider rounded-3xl p-7 flex flex-col gap-5 hover:shadow-lg transition-shadow duration-300 relative overflow-hidden">
-            {/* Colored top stripe */}
             <div className="absolute top-0 left-0 right-0 h-1 rounded-t-3xl" style={{background:t.borderColor}}/>
             <div className="flex gap-1 mt-2">
               {Array.from({length:t.rating}).map((_,j) => (
@@ -907,14 +900,12 @@ function ContactForm() {
 
   return (
     <section id="contact" ref={ref} className="relative py-28 sm:py-36 px-6 sm:px-10 lg:px-16 bg-surface overflow-hidden">
-      {/* Doodles */}
       <div className="absolute top-12 right-12 pointer-events-none"><DStar color={RED} size={60} opacity={0.12} rotate={10}/></div>
       <div className="absolute bottom-20 left-8 pointer-events-none"><DDots color={BLUE} size={44} opacity={0.4}/></div>
       <div className="absolute top-1/2 left-1/3 pointer-events-none hidden lg:block"><DCross color={YELLOW} size={24} opacity={0.5} rotate={20}/></div>
 
       <div className="relative max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-12 gap-12">
-          {/* Left */}
           <div className="contact-col lg:col-span-5">
             <div className="flex items-center gap-3 mb-4">
               <DArrow color={RED} size={22} opacity={0.8}/>
@@ -949,7 +940,6 @@ function ContactForm() {
             </div>
           </div>
 
-          {/* Right form */}
           <div className="contact-col lg:col-span-7">
             <div className="bg-white rounded-3xl border border-divider shadow-sm p-6 sm:p-10">
               {status === 'sent' ? (
@@ -1025,7 +1015,6 @@ function ContactForm() {
 function Footer() {
   return (
     <footer style={{background:'#111111'}} className="border-t border-white/5 text-white">
-      {/* Color stripe */}
       <div className="flex h-1">
         <div className="flex-1" style={{background:RED}}/>
         <div className="flex-1" style={{background:BLUE}}/>
@@ -1035,14 +1024,15 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2.5 mb-5">
-              <div className="w-8 h-8 rounded-lg flex items-center justify-center shadow-lg"
-                style={{background:RED}}>
-                <Aperture className="h-4 w-4 text-white"/>
-              </div>
-              <span className="font-display font-bold text-white text-sm tracking-tight">lifeatkreabi</span>
+            {/* ── Footer Logo ── */}
+            <div className="mb-5">
+              <img
+                src="/logo-lifeatkreabi.png"
+                alt="lifeatkreabi"
+                className="h-10 w-auto object-contain"
+                style={{ filter: 'brightness(0) invert(1)' }}
+              />
             </div>
-            {/* Color trio */}
             <div className="flex gap-2 mb-4">
               <DSparkle color={RED} size={14} opacity={0.9}/>
               <DSparkle color={BLUE} size={14} opacity={0.9}/>
